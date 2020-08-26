@@ -1,5 +1,4 @@
 README: Settlers
-Final Handin
 
 DESIGN CHOICES:
 Here's how I think about my design: App --> Pane Organizer --> (Game (--> Player; --> BuildBox; --> TradeBox) <-->  SideBar) --> Board --> Graph --> (Vertex (--> Piece) ; <--> Edge (--> Piece)).  And then there are some other classes that help divide the labor. (think: inheritance) 
